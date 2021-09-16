@@ -1,0 +1,172 @@
+	body{
+	background-color:#F5F5F5;
+	overflow: hidden;
+	overflow-y: scroll; /* Show vertical scrollbar */
+  overflow-x: scroll;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img.logo{
+	position relative;
+	width:20vw;
+}
+
+img.objects {
+    position: absolute;
+    top: 0;
+	padding-left:80px;
+    bottom: 0;
+    margin: auto;
+}
+.objects {
+    width:50%;
+}
+
+.heading{
+	position: relative;
+	font-family:Garamond;
+	font-size:3vw;
+	margin-bottom:30px;
+}
+
+.fname{
+	position:relative; 
+	margin-left:8px; 
+	font-family:Papyrus;
+	width:12vw;
+	font-size:1.5vw;
+	height:3vw;
+}
+
+.lname{
+	position:relative; 
+	margin-left:11px;
+	font-family:Papyrus;
+	width:12vw;
+	font-size:1.5vw;
+	height:3vw;
+}
+
+.phone{
+	position:relative; 
+	margin-left:8px; 
+	font-family:Papyrus;
+	width:25vw;
+	font-size:1.5vw;
+	height:3vw;
+}
+
+.age{
+	position:relative; 
+	margin-left:8px;
+	font-family:Papyrus;
+	width:5vw;
+	font-size:1.5vw;
+	height:3vw;
+}
+
+.country{
+	position:relative; 
+	margin-left:8px; 
+	font-family:Papyrus;
+	width:11.5vw;
+	font-size:1.5vw;
+	height:3vw;
+}
+
+
+.genderdiv{
+	display:inline;
+	position:relative; 
+	margin-left:8px; 
+	font-family:Papyrus;
+	width:1.5vw;
+	font-size:1.5vw;
+}
+
+.email{
+	position:relative; 
+	margin-left:8px; 
+	font-family:Papyrus;
+	width:25vw;
+	font-size:1.5vw;
+	height:3vw;
+}
+
+
+
+.user{
+	position:relative; 
+	margin-left:8px; 
+	font-family:Papyrus;
+	width:25vw;
+	font-size:1.5vw;
+	height:3vw;
+}
+
+.pass{
+	position:relative; 
+	margin-left:8px; 
+	font-family:Papyrus;
+	width:25vw;
+	font-size:1.5vw;
+	height:3vw;
+}
+
+.check {
+            width: 20px;
+            height: 20px;
+        }
+
+.components{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-left:100px;
+}
+
+p{
+	font-family:Papyrus; 
+	display:inline; 
+	font-size:1.5vw; 
+	margin-left:20px;
+}
+
+.submit{
+	position:relative;
+	margin-left:20px; 
+	font-family:Papyrus;
+	width:200px; 
+	width:25vw; 
+	font-size:1.5vw; 
+	height:3vw;
+}
+
+.checklabel{
+	width:25vw; 
+	font-size:1.5vw; 
+	height:3vw;
+}
