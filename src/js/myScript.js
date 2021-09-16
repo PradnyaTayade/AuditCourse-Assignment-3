@@ -117,8 +117,3 @@ function datacomplete(){
 	window.open("second.html");
 	
 }
-
-function redirect()
-{
-    window.location.href="second.html";
-}
